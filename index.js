@@ -14,10 +14,10 @@ const corsOption = {
 };
 
 // Development mode: ถ้าต้องการล้างฐานข้อมูลแล้วสร้างใหม่
-//  db.sequelize.sync({ force: true }).then(() => {
-//    initRole();
-//    console.log("Drop and sync DB");
-//  });
+ //db.sequelize.sync({ force: true }).then(() => {
+//   initRole();
+    //console.log("Drop and sync DB");
+  //});
 
 // ฟังก์ชันสำหรับตั้งค่า role ในฐานข้อมูล
 const initRole = () => {

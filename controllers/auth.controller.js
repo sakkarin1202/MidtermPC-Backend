@@ -9,6 +9,8 @@ const { Op } = require("sequelize");
 //Register a new user
 exports.signup = async (req, res) => {
   const { username, password, email } = req.body;
+  console.log(req.body);
+  
   if (!username || !password || !email) {
     res.status(400).send({
       message: "please provide all required fields",
